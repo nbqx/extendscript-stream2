@@ -1,0 +1,23 @@
+{
+  "name": "extendscript-stream2",
+  "description": "adobe extendscript's output to nodejs readable stream",
+  "version": "0.0.1",
+  "author": "nbqx",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nbqx/extendscript-stream2.git"
+  },
+  "homepage": "https://github.com/nbqx/extendscript-stream2",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "fakestk": "0.0.5"
+  },
+  "devDependencies": {
+    "tap": "^0.4.8",
+    "through": "^2.3.4"
+  }
+}
